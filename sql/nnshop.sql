@@ -52,7 +52,7 @@ CREATE TABLE `award_log` (
 -- ----------------------------
 DROP TABLE IF EXISTS `nna_admin`;
 CREATE TABLE `nna_admin` (
-  `id` bigint(20) NOT NULL,
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `name` varchar(30) DEFAULT NULL,
   `pwd` varchar(16) DEFAULT NULL,
   `nickname` varchar(255) DEFAULT NULL,
@@ -307,7 +307,7 @@ CREATE TABLE `nnp_product` (
 -- ----------------------------
 DROP TABLE IF EXISTS `nnp_product_category`;
 CREATE TABLE `nnp_product_category` (
-  `category_id` bigint(20) NOT NULL,
+  `category_id` bigint(20) NOT NULL AUTO_INCREMENT,
   `name` varchar(30) DEFAULT NULL,
   `Column_5` bigint(20) DEFAULT NULL,
   `create_time` datetime DEFAULT NULL,
@@ -324,7 +324,7 @@ CREATE TABLE `nnp_product_category` (
 -- ----------------------------
 DROP TABLE IF EXISTS `nnp_sku`;
 CREATE TABLE `nnp_sku` (
-  `id` bigint(20) unsigned NOT NULL COMMENT '数据id',
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '数据id',
   `spu_id` bigint(20) unsigned DEFAULT NULL COMMENT 'SPU id',
   `title` varchar(255) DEFAULT NULL COMMENT '标题',
   `bar_code` varchar(255) DEFAULT NULL COMMENT '条型码',
@@ -374,7 +374,7 @@ CREATE TABLE `nnp_sku_specification` (
 -- ----------------------------
 DROP TABLE IF EXISTS `nnp_spu`;
 CREATE TABLE `nnp_spu` (
-  `id` bigint(20) unsigned NOT NULL COMMENT '数据id',
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '数据id',
   `name` varchar(50) DEFAULT NULL COMMENT 'SPU名称',
   `type_number` varchar(50) DEFAULT NULL COMMENT 'SPU编号',
   `title` varchar(255) DEFAULT NULL COMMENT '标题',
