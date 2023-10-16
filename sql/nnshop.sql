@@ -63,6 +63,7 @@ CREATE TABLE `nna_admin` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+INSERT INTO `nna_admin` VALUES ('1', 'jack', '1234567', 'job', '2555@qq.com', '12345678909', null, null);
 -- ----------------------------
 -- Records of nna_admin
 -- ----------------------------
