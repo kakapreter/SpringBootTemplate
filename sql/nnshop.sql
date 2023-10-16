@@ -444,4 +444,4 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('1', 'jack', '123456', null);
+INSERT INTO `user` VALUES (null, 'jack', '123456', null);
