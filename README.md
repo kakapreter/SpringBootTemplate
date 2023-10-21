@@ -1,6 +1,7 @@
 # 牛牛商城
 ---
 ## 前端frontend为 Vue-admin-template
+### JDK8下载 https://cdn.azul.com/zulu/bin/zulu8.58.0.13-ca-jdk8.0.312-win_x64.msi
 ### Node下载 https://nodejs.org/download/release/v16.20.2/node-v16.20.2-x86.msi
 ---
 ## 后端backend为 JDK8 + Spring Boot + Mybatis-plus + Mybatis-plus-join + Druid
