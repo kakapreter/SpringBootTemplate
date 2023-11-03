@@ -54,7 +54,7 @@ DROP TABLE IF EXISTS `nna_admin`;
 CREATE TABLE `nna_admin` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `name` varchar(30) DEFAULT NULL,
-  `pwd` varchar(16) DEFAULT NULL,
+  `pwd` varchar(255) DEFAULT NULL,
   `nickname` varchar(255) DEFAULT NULL,
   `email` varchar(30) DEFAULT NULL,
   `phone` char(11) DEFAULT NULL,
