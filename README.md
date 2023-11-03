@@ -6,7 +6,7 @@
 ---
 ## 后端backend为 JDK8 + Spring Boot + Mybatis-plus + Mybatis-plus-join + Druid
 ###  集成Swagger2的前台Restful规范前台测试配置,lomback,idea的热部署devtools工具
-###  利用https://github.com/fengwenyi/mybatis-plus-code-generator这个jar包反编译生成mapper,service,controller,entity
+###  利用https://github.com/fengwenyi/mybatis-plus-code-generator 这个jar包反编译生成mapper,service,controller,entity
 ---
 ## 当前项目进度
 
