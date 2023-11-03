@@ -3,7 +3,7 @@
 ## 前端frontend为 Vue-admin-template
 ### JDK8下载 https://cdn.azul.com/zulu/bin/zulu8.58.0.13-ca-jdk8.0.312-win_x64.msi
 ### Node 16.20.2下载 https://nodejs.org/download/release/v16.20.2/node-v16.20.2-x86.msi
---
+---
 ## 后端backend为 JDK8 + Spring Boot + Mybatis-plus + Mybatis-plus-join + Druid
 ###  集成Swagger2的前台Restful规范前台测试配置,lomback,idea的热部署devtools工具
 ###  利用https://github.com/fengwenyi/mybatis-plus-code-generator 这个jar包反编译生成entity,mapper,service,controller各层中的类
