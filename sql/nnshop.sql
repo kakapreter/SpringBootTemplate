@@ -66,8 +66,8 @@ CREATE TABLE `nna_admin` (
 -- ----------------------------
 -- Records of nna_admin
 -- ----------------------------
-INSERT INTO `nna_admin` VALUES ('1', 'jack', '123456', 'jacker', '2242228@qq.com', '18888888112', null, null);
-INSERT INTO `nna_admin` VALUES ('2', 'Galliana', '123456', ' Gallianaer', '222@qq.com', '11222222222', null, null);
+INSERT INTO `nna_admin` VALUES ('1', 'jack', 'e10adc3949ba59abbe56e057f20f883e', 'jacker', '2242228@qq.com', '18888888112', null, null);
+INSERT INTO `nna_admin` VALUES ('2', 'Galliana', 'e10adc3949ba59abbe56e057f20f883e', ' Gallianaer', '222@qq.com', '11222222222', null, null);
 INSERT INTO `nna_admin` VALUES ('3', 'Kurkovva', '123456', null, null, null, null, null);
 INSERT INTO `nna_admin` VALUES ('4', 'Bukhstab', '123456', null, null, null, null, null);
 INSERT INTO `nna_admin` VALUES ('5', 'Governatore', '123456', null, null, null, null, null);
