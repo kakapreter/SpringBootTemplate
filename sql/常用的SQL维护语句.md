@@ -1,7 +1,10 @@
 
 ## 优化自增主键（改成无符号,数值位数更多）
 ```sql
+# 更改主键
 ALTER TABLE path_logs MODIFY COLUMN id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT;
+
+# 查看表结构
 DESCRIBE path_logs;
 ```
 
